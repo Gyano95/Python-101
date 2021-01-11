@@ -1,4 +1,4 @@
-## Formatting Strings
+#Formatting Strings
 
 first_name = 'Toba'
 last_name = 'Obiwale'
