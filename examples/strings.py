@@ -1,7 +1,7 @@
 # Strings can be store in variables
 # first_name = 'Toba'
-# last_name = 'Obiwale'
-# print(last_name)
+last_name = input('What is your last_name: ')
+print(last_name)
 
 # first_name = input('what is your first name')
 # last_name = input('what is your last name')

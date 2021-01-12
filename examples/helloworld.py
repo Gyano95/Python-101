@@ -5,10 +5,6 @@
 # print('Your favourite color is')
 # print(color)
 
-color = input('What is your favourite color dress: ')
-print('What a beautify, ' + color.capitalize() + ' ' + 'dress' + ' ' + '!')
-
-
 #Comment/Debuging code
 # print('Adding Numbers')
 # x = 42 + 206

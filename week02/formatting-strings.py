@@ -1,7 +1,7 @@
 #Formatting Strings
 
-first_name = 'Toba'
-last_name = 'Obiwale'
+# first_name = 'Toba'
+# last_name = 'Obiwale'
 
 first_name = input('What is your first_name: ')
 last_name = input('What is your last_name: ')
