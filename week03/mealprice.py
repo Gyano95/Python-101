@@ -25,7 +25,7 @@ change = total_amount - total_price
 print('Your change is: ${:.2f}'.format(change))
 print(f'\n')
 
-change_tip = input('buyer: Keep the change')
+change_tip = input('buyer: Keep the change - click for response')
 
 print('Seller: Thank you for the tips!')
 
