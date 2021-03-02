@@ -20,16 +20,16 @@
 
 # print(f"Your name is: {name}")
 
-# from PIL import Image
-# print("The library is loaded correctly")
+from PIL import Image
+print("The library is loaded correctly")
 
-# num = int(input("Type a positive number?: "))
+num = int(input("Type a positive number?: "))
 
-# while num < 0:
-#     print("Sorry, that is a negative number. Please try again: ")
-#     num = int(input("Type a positive number?: "))
+while num < 0:
+    print("Sorry, that is a negative number. Please try again: ")
+    num = int(input("Type a positive number?: "))
 
-#     print(f"The number is {num}")      
+    print(f"The number is {num}")      
 
 # answer = ""
 
