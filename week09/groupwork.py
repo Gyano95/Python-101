@@ -1,16 +1,20 @@
 # List Numbers
+value = []
+numbers = 1
 
-values = []
-for i in range(4):
-    a = int(input("Enter value: ".format(i+1)))
-    values.append(a)
-    values.sort()
+while numbers != 0:
+    numbers = int(input("Enter your numbers: "))
+    if numbers != 0:
+        value.append(numbers)
 
-print("Sum is: ", sum(values))
-print("Average is: ", sum(values) / len(values))
-print("Maximun is: ", max(values))
-print("Minimum is: ", min(values))
-print("Sort list: ", values)
+value.sort()
+
+print("sum is: ", sum(value))
+print("Average: ", sum(value)/ len(value))
+print("Maximum is: ", max(value))
+print("Minimum is: ", min(value))
+print("The sorted list is: ")
 
 
- 
+for x in range(len(value)):
+ print(value[x])   
